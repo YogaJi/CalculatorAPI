@@ -6120,11 +6120,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\DELL\\source\\repos\\CalculatorAPI\\CalculatorAPI\\Test Project\\Test Project.csproj",
+      "projectUniqueName": "C:\\Users\\DELL\\source\\repos\\CalculatorAPI\\Test Project\\Test Project.csproj",
       "projectName": "Test Project",
-      "projectPath": "C:\\Users\\DELL\\source\\repos\\CalculatorAPI\\CalculatorAPI\\Test Project\\Test Project.csproj",
+      "projectPath": "C:\\Users\\DELL\\source\\repos\\CalculatorAPI\\Test Project\\Test Project.csproj",
       "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\DELL\\source\\repos\\CalculatorAPI\\CalculatorAPI\\Test Project\\obj\\",
+      "outputPath": "C:\\Users\\DELL\\source\\repos\\CalculatorAPI\\Test Project\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"

@@ -199,11 +199,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\DELL\\source\\repos\\CalculatorAPI\\CalculatorAPI\\ASP.Net Core Web API\\ASP.Net Core Web API.csproj",
+      "projectUniqueName": "C:\\Users\\DELL\\source\\repos\\CalculatorAPI\\ASP.Net Core Web API\\ASP.Net Core Web API.csproj",
       "projectName": "ASP.Net Core Web API",
-      "projectPath": "C:\\Users\\DELL\\source\\repos\\CalculatorAPI\\CalculatorAPI\\ASP.Net Core Web API\\ASP.Net Core Web API.csproj",
+      "projectPath": "C:\\Users\\DELL\\source\\repos\\CalculatorAPI\\ASP.Net Core Web API\\ASP.Net Core Web API.csproj",
       "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\DELL\\source\\repos\\CalculatorAPI\\CalculatorAPI\\ASP.Net Core Web API\\obj\\",
+      "outputPath": "C:\\Users\\DELL\\source\\repos\\CalculatorAPI\\ASP.Net Core Web API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"

@@ -1,0 +1,39 @@
+C:\Users\DELL\source\repos\CalculatorAPI\ASP.Net Core Library\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\DELL\source\repos\CalculatorAPI\ASP.Net Core Library\bin\Debug\net5.0\appsettings.json
+C:\Users\DELL\source\repos\CalculatorAPI\ASP.Net Core Library\bin\Debug\net5.0\ASP.Net Core Library.exe
+C:\Users\DELL\source\repos\CalculatorAPI\ASP.Net Core Library\bin\Debug\net5.0\ASP.Net Core Library.deps.json
+C:\Users\DELL\source\repos\CalculatorAPI\ASP.Net Core Library\bin\Debug\net5.0\ASP.Net Core Library.runtimeconfig.json
+C:\Users\DELL\source\repos\CalculatorAPI\ASP.Net Core Library\bin\Debug\net5.0\ASP.Net Core Library.runtimeconfig.dev.json
+C:\Users\DELL\source\repos\CalculatorAPI\ASP.Net Core Library\bin\Debug\net5.0\ASP.Net Core Library.dll
+C:\Users\DELL\source\repos\CalculatorAPI\ASP.Net Core Library\bin\Debug\net5.0\ref\ASP.Net Core Library.dll
+C:\Users\DELL\source\repos\CalculatorAPI\ASP.Net Core Library\bin\Debug\net5.0\ASP.Net Core Library.pdb
+C:\Users\DELL\source\repos\CalculatorAPI\ASP.Net Core Library\bin\Debug\net5.0\ASP.Net Core Library.Views.dll
+C:\Users\DELL\source\repos\CalculatorAPI\ASP.Net Core Library\bin\Debug\net5.0\ASP.Net Core Library.Views.pdb
+C:\Users\DELL\source\repos\CalculatorAPI\ASP.Net Core Library\obj\Debug\net5.0\ASP.Net Core Library.csproj.AssemblyReference.cache
+C:\Users\DELL\source\repos\CalculatorAPI\ASP.Net Core Library\obj\Debug\net5.0\ASP.Net Core Library.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\source\repos\CalculatorAPI\ASP.Net Core Library\obj\Debug\net5.0\ASP.Net Core Library.AssemblyInfoInputs.cache
+C:\Users\DELL\source\repos\CalculatorAPI\ASP.Net Core Library\obj\Debug\net5.0\ASP.Net Core Library.AssemblyInfo.cs
+C:\Users\DELL\source\repos\CalculatorAPI\ASP.Net Core Library\obj\Debug\net5.0\ASP.Net Core Library.csproj.CoreCompileInputs.cache
+C:\Users\DELL\source\repos\CalculatorAPI\ASP.Net Core Library\obj\Debug\net5.0\ASP.Net Core Library.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\DELL\source\repos\CalculatorAPI\ASP.Net Core Library\obj\Debug\net5.0\ASP.Net Core Library.RazorAssemblyInfo.cache
+C:\Users\DELL\source\repos\CalculatorAPI\ASP.Net Core Library\obj\Debug\net5.0\ASP.Net Core Library.RazorAssemblyInfo.cs
+C:\Users\DELL\source\repos\CalculatorAPI\ASP.Net Core Library\obj\Debug\net5.0\scopedcss\bundle\ASP.Net Core Library.styles.css
+C:\Users\DELL\source\repos\CalculatorAPI\ASP.Net Core Library\obj\Debug\net5.0\staticwebassets\ASP.Net Core Library.StaticWebAssets.Manifest.cache
+C:\Users\DELL\source\repos\CalculatorAPI\ASP.Net Core Library\obj\Debug\net5.0\ASP.Net Core Library.TagHelpers.input.cache
+C:\Users\DELL\source\repos\CalculatorAPI\ASP.Net Core Library\obj\Debug\net5.0\ASP.Net Core Library.TagHelpers.output.cache
+C:\Users\DELL\source\repos\CalculatorAPI\ASP.Net Core Library\obj\Debug\net5.0\ASP.Net Core Library.RazorCoreGenerate.cache
+C:\Users\DELL\source\repos\CalculatorAPI\ASP.Net Core Library\obj\Debug\net5.0\Razor\Pages\Error.cshtml.g.cs
+C:\Users\DELL\source\repos\CalculatorAPI\ASP.Net Core Library\obj\Debug\net5.0\Razor\Pages\Index.cshtml.g.cs
+C:\Users\DELL\source\repos\CalculatorAPI\ASP.Net Core Library\obj\Debug\net5.0\Razor\Pages\Privacy.cshtml.g.cs
+C:\Users\DELL\source\repos\CalculatorAPI\ASP.Net Core Library\obj\Debug\net5.0\Razor\Pages\Shared\_Layout.cshtml.g.cs
+C:\Users\DELL\source\repos\CalculatorAPI\ASP.Net Core Library\obj\Debug\net5.0\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\DELL\source\repos\CalculatorAPI\ASP.Net Core Library\obj\Debug\net5.0\Razor\Pages\_ViewImports.cshtml.g.cs
+C:\Users\DELL\source\repos\CalculatorAPI\ASP.Net Core Library\obj\Debug\net5.0\Razor\Pages\_ViewStart.cshtml.g.cs
+C:\Users\DELL\source\repos\CalculatorAPI\ASP.Net Core Library\obj\Debug\net5.0\ASP.Net Core Library.RazorTargetAssemblyInfo.cache
+C:\Users\DELL\source\repos\CalculatorAPI\ASP.Net Core Library\obj\Debug\net5.0\ASP.Net Core Library.RazorTargetAssemblyInfo.cs
+C:\Users\DELL\source\repos\CalculatorAPI\ASP.Net Core Library\obj\Debug\net5.0\ASP.Net Core Library.Views.pdb
+C:\Users\DELL\source\repos\CalculatorAPI\ASP.Net Core Library\obj\Debug\net5.0\ASP.Net Core Library.dll
+C:\Users\DELL\source\repos\CalculatorAPI\ASP.Net Core Library\obj\Debug\net5.0\ref\ASP.Net Core Library.dll
+C:\Users\DELL\source\repos\CalculatorAPI\ASP.Net Core Library\obj\Debug\net5.0\ASP.Net Core Library.pdb
+C:\Users\DELL\source\repos\CalculatorAPI\ASP.Net Core Library\obj\Debug\net5.0\ASP.Net Core Library.genruntimeconfig.cache
+C:\Users\DELL\source\repos\CalculatorAPI\ASP.Net Core Library\obj\Debug\net5.0\ASP.Net Core Library.csproj.CopyComplete

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "g4xeKN6U50VqiBNVlu/ILAWpDM7r7kl+06us0Z2Pvtw1NWfZyTlIwZM4n9Fzu1+JWG54qOR82PD0NZlvURSDxg==",
+  "dgSpecHash": "goj3uoibkVOVmNg979cFXzPw9XBfBgqWgYq9aOnFu1dANriiemPRoxqYGsZYyjBDJFuvjPj1bLjP7Irp1bDgfQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\DELL\\source\\repos\\CalculatorAPI\\CalculatorAPI\\ASP.Net Core Library\\ASP.Net Core Library.csproj",
+  "projectFilePath": "C:\\Users\\DELL\\source\\repos\\CalculatorAPI\\ASP.Net Core Library\\ASP.Net Core Library.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DELL\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.12\\microsoft.netcore.app.host.win-x64.5.0.12.nupkg.sha512"
   ],

@@ -4,7 +4,33 @@
     ViewData["Title"] = "Home page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<h1>Calculator</h1>
+<form action="https://localhost:44392/api/Calculate/Add" method="get">
+    <label for="Title">Addition:</label><br />
+    <label for="valueA">first number:</label><input id="valueA" type="number" step="0.0001" name="valueA" />
+    <label for="valueB">second number:</label><input id="valueB" type="number" step="0.0001" name="valueB" />
+    <input type="submit" value="submit" />
+</form><br />
+
+<form action="https://localhost:44392/api/Calculate/Subtract" method="get">
+    <label for="Title">Subtraction:</label><br />
+    <label for="valueA">first number:</label><input id="valueA" type="number" step="0.0001" name="valueA" />
+    <label for="valueB">second number:</label><input id="valueB" type="number"step="0.0001"  name="valueB" />
+    <input type="submit" value="submit" />
+</form><br />
+
+<form action="https://localhost:44392/api/Calculate/Multiple" method="get">
+    <label for="Title">Multiplication:</label><br />
+    <label for="valueA">first number:</label><input id="valueA" type="number" step="0.0001" name="valueA" />
+    <label for="valueB">second number:</label><input id="valueB" type="number" step="0.0001" name="valueB" />
+    <input type="submit" value="submit" />
+</form><br />
+
+<form action="https://localhost:44392/api/Calculate/Divise" method="get">
+    <label for="Title">Division:</label><br />
+    <label for="valueA">first number:</label><input id="valueA" type="number" step="0.0001" name="valueA" />
+    <label for="valueB">second number:</label><input id="valueB" type="number" step="0.0001" name="valueB" />
+    <input type="submit" value="submit" />
+</form><br />
+
+@*js to set 00.. to 0, not allowed -0*@
