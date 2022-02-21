@@ -41,17 +41,20 @@ namespace ASP.Net_Core_Web_API.Controllers
         public double? Divide(double valueA, double valueB)
         {
             //situation:  number / 0 and response 400
-            if (valueB == 0) {
+            if(valueB == 0)
+            {
                 Response.StatusCode = 400;
                 Response.HttpContext.Features.Get<IHttpResponseFeature>().ReasonPhrase = "Bad Request";
                 return null;
             }
             else
             {
-                //divise
                 return valueA / valueB;
             }
+            
+    
         }
+
     }
 
 }
