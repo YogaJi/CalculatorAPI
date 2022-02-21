@@ -14,4 +14,8 @@
     <PackageReference Include="coverlet.collector" Version="3.0.2" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ASP.Net Core Web API\ASP.Net Core Web API.csproj" />
+  </ItemGroup>
+
 </Project>
