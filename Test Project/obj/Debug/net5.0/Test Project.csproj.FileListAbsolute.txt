@@ -112,3 +112,7 @@ C:\Users\DELL\source\repos\CalculatorAPI\Test Project\obj\Debug\net5.0\Test Proj
 C:\Users\DELL\source\repos\CalculatorAPI\Test Project\obj\Debug\net5.0\Test Project.genruntimeconfig.cache
 C:\Users\DELL\source\repos\CalculatorAPI\Test Project\bin\Debug\net5.0\CalculatorLibrary.dll
 C:\Users\DELL\source\repos\CalculatorAPI\Test Project\bin\Debug\net5.0\CalculatorLibrary.pdb
+C:\Users\DELL\source\repos\CalculatorAPI\Test Project\bin\Debug\net5.0\CalculatorLibrary.deps.json
+C:\Users\DELL\source\repos\CalculatorAPI\Test Project\bin\Debug\net5.0\CalculatorLibrary.runtimeconfig.json
+C:\Users\DELL\source\repos\CalculatorAPI\Test Project\bin\Debug\net5.0\CalculatorLibrary.runtimeconfig.dev.json
+C:\Users\DELL\source\repos\CalculatorAPI\Test Project\bin\Debug\net5.0\CalculatorLibrary.exe

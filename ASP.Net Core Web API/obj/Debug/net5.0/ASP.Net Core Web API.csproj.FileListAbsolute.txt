@@ -28,3 +28,7 @@ C:\Users\DELL\source\repos\CalculatorAPI\ASP.Net Core Web API\obj\Debug\net5.0\A
 C:\Users\DELL\source\repos\CalculatorAPI\ASP.Net Core Web API\obj\Debug\net5.0\ASP.Net Core Web API.genruntimeconfig.cache
 C:\Users\DELL\source\repos\CalculatorAPI\ASP.Net Core Web API\bin\Debug\net5.0\CalculatorLibrary.dll
 C:\Users\DELL\source\repos\CalculatorAPI\ASP.Net Core Web API\bin\Debug\net5.0\CalculatorLibrary.pdb
+C:\Users\DELL\source\repos\CalculatorAPI\ASP.Net Core Web API\bin\Debug\net5.0\CalculatorLibrary.deps.json
+C:\Users\DELL\source\repos\CalculatorAPI\ASP.Net Core Web API\bin\Debug\net5.0\CalculatorLibrary.runtimeconfig.json
+C:\Users\DELL\source\repos\CalculatorAPI\ASP.Net Core Web API\bin\Debug\net5.0\CalculatorLibrary.runtimeconfig.dev.json
+C:\Users\DELL\source\repos\CalculatorAPI\ASP.Net Core Web API\bin\Debug\net5.0\CalculatorLibrary.exe

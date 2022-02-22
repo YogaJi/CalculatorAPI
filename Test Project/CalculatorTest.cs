@@ -8,6 +8,7 @@ namespace Test_Project
     [TestClass]
     public class CalculatorTest
     {
+        //this test is for asp.net core library web app
         private readonly CalculateController _CalculateController;
 
         public CalculatorTest()
@@ -15,13 +16,12 @@ namespace Test_Project
             _CalculateController = new CalculateController();
         }
 
-
         [TestMethod]
         [DataRow(1, 2, 3)]
         [DataRow(-1, -3, -4)]
         [DataRow(0.01, 0.6600, 0.67)]
         [DataRow(-0.05, -0.05, -0.1)]
-        //Test: Add()
+        //Test 1: Add()
         //DataTest: positive\negative\decimal\negative-decimal
         public void Test_Add_Input_Int_Double_Negative_Postive(double valueA, double valueB, double expected)
         { 
@@ -31,7 +31,7 @@ namespace Test_Project
        [TestMethod]
         [DataRow(2, 1, 1)]
         [DataRow(-900, -90, -810)]
-        [DataRow(0.68, 0.07, 0.6100000000000001)]//problem
+        [DataRow(0.68, 0.07, 0.6100000000000001)]
         [DataRow(-47, 88, -135)]
         [DataRow(0, -90, 90)]
         [DataRow(65, 0, 65)]
@@ -49,7 +49,7 @@ namespace Test_Project
         [DataRow(-589.7, 325.90, -192183.23)]
         [DataRow(-44.568, 0, 0)]
         [DataRow(0, 77894, 0)]
-        //Test 2: Multiple()
+        //Test 3: Multiple()
         //Data: positive\negative\decimal\negative-decimal
         public void Test_Multiple_Input_Int_Double_Negative_Postive_Zero(double valueA, double valueB, double expected)
         {
@@ -61,7 +61,7 @@ namespace Test_Project
         [DataRow(-17, -3, 5.666666666666667)]
         [DataRow(0.6666, 4, 0.16665)]
         [DataRow(-456, -2.5, 182.4)]
-        //Test 3: Divide()
+        //Test 4: Divide()
         //Data: positive\negative\decimal\negative-decimal
         public void Test_Divide_Input_Int_Double_Negative_Postive(double valueA, double valueB, double expected)
         {
@@ -73,7 +73,7 @@ namespace Test_Project
         [DataRow(0, -7654, 0)]
         [DataRow(0, 67.90, 0)]
         [DataRow(0, -2.50, 0)]
-        //Test 4: Divide()
+        //Test 5: Divide()
         //Data: first zero
         public void Test_Divide_Input_First_Zero(double valueA, double valueB, double expected)
         {
@@ -85,7 +85,7 @@ namespace Test_Project
         [DataRow(-7654, 0)]
         [DataRow(67.90, 0)]
         [DataRow(-2.50, 0)]
-        //Test 5: Divide()
+        //Test 6: Divide()
         //Data: second zero
 
         public void Test_Divide_Input_Second_Zero(double valueA, double valueB)
@@ -95,7 +95,7 @@ namespace Test_Project
 
         [TestMethod]
         [DataRow(0, 0)]
-        //Test 6: Divide()
+        //Test 7: Divide()
         //Data: double zero
         public void Test_Divide_Input_Double_Zero(double valueA, double valueB)
         {
@@ -107,7 +107,7 @@ namespace Test_Project
         [DataRow(775, 0, 0)]
         [DataRow(0, -9.70, 0)]
         [DataRow(0, 0, 0)]
-        //Test 7: Multiple()
+        //Test 8: Multiple()
         //Data: zero
         public void Test_Multiple_Input_Zero(double valueA, double valueB, double expected)
         {
@@ -119,7 +119,7 @@ namespace Test_Project
         [DataRow(65, 0, 65)]
         [DataRow(0.78, 0, 0.78)]
         [DataRow(0, 0, 0)]
-        //Test 8: Subtract()
+        //Test 9: Subtract()
         //Data: zero
         public void Test_Subtract_Zero(double valueA, double valueB, double expected)
         {
@@ -131,7 +131,7 @@ namespace Test_Project
         [DataRow(7.8889, 0, 7.8889)]
         [DataRow(0, -10, -10)]
         [DataRow(0, 0.91, 0.91)]
-        //Test 9: Add()
+        //Test 10: Add()
         //DataTest: zero
         public void Test_Add_Zero(double valueA, double valueB, double expected)
         {
@@ -143,7 +143,7 @@ namespace Test_Project
         [DataRow(-20, -0.9990, 20.02002002002002)]
         [DataRow(-0.99, -89.3, 0.01108622620380739)]
         [DataRow(-50, -2, 25)]
-        //Test 10: Divide()
+        //Test 11: Divide()
         //Data: all negative
         public void Test_Divide_Input_Negative(double valueA, double valueB, double expected)
         {

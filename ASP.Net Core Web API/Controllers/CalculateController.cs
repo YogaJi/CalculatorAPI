@@ -1,13 +1,9 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Http.Features;
+﻿using Microsoft.AspNetCore.Http.Features;
 using Microsoft.AspNetCore.Mvc;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace ASP.Net_Core_Web_API.Controllers
 {
+    //this controller is linked to the web app
     //set each calculate method as api/calculator/'method'
     [Route("api/[controller]/[action]")]
     [ApiController]
@@ -52,7 +48,6 @@ namespace ASP.Net_Core_Web_API.Controllers
                 return valueA / valueB;
             }
             
-    
         }
 
     }
