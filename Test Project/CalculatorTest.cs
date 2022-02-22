@@ -24,8 +24,7 @@ namespace Test_Project
         //Test: Add()
         //DataTest: positive\negative\decimal\negative-decimal
         public void Test_Add_Input_Int_Double_Negative_Postive(double valueA, double valueB, double expected)
-        {
-            
+        { 
             Assert.AreEqual(expected, _CalculateController.Add(valueA, valueB));
         }
 
@@ -37,7 +36,7 @@ namespace Test_Project
         [DataRow(0, -90, 90)]
         [DataRow(65, 0, 65)]
         //Test 2: Subtract()
-        //Data: positive\negative\decimal\negative-decimal\zero
+        //Data: positive\negative\decimal\negative-decimal
         public void Test_Subtract_Input_Int_Double_Negative_Postive_Zero(double valueA, double valueB, double expected)
         {
             Assert.AreEqual(expected, _CalculateController.Subtract(valueA, valueB));
@@ -50,8 +49,8 @@ namespace Test_Project
         [DataRow(-589.7, 325.90, -192183.23)]
         [DataRow(-44.568, 0, 0)]
         [DataRow(0, 77894, 0)]
-        //Test 2: Add()
-        //Data: positive\negative\decimal\negative-decimal\zero
+        //Test 2: Multiple()
+        //Data: positive\negative\decimal\negative-decimal
         public void Test_Multiple_Input_Int_Double_Negative_Postive_Zero(double valueA, double valueB, double expected)
         {
             Assert.AreEqual(expected, _CalculateController.Multiple(valueA, valueB));
@@ -81,33 +80,76 @@ namespace Test_Project
             Assert.AreEqual(expected, _CalculateController.Divide(valueA, valueB));
         }
 
-        /*        [TestMethod]
-                [DataRow(98, 0)]
-                [DataRow(-7654, 0)]
-                [DataRow(67.90, 0)]
-                [DataRow(-2.50, 0)]
-                //Test 4: Divide()
-                //Data: first zero
-                public void Test_Divide_Input_Second_Zero(double valueA, double valueB)
-                {
-                    var result = _CalculateController.Divide(valueA,valueB);
-                    Assert.IsNull(result, $"{valueB} should not be zero, 400");
-                }*/
         [TestMethod]
         [DataRow(98, 0)]
         [DataRow(-7654, 0)]
         [DataRow(67.90, 0)]
         [DataRow(-2.50, 0)]
+        //Test 5: Divide()
+        //Data: second zero
 
         public void Test_Divide_Input_Second_Zero(double valueA, double valueB)
         {
-       
-            //var result = _CalculateController.Divide(2, valueB);
-            // Assert.AreEqual(null, _CalculateController.Divide(2, valueB));
-            //Assert.IsNull(result, $"{valueB} should not be zero, 400");
-                //Assert.AreEqual(null,_CalculateController.Divide(valueA, valueB));
-            Assert.ThrowsException<ArgumentException>(() => _CalculateController.Divide(valueA, valueB));
+            Assert.IsNotNull( $"{valueB} should not be zero, 400");
         }
+
+        [TestMethod]
+        [DataRow(0, 0)]
+        //Test 6: Divide()
+        //Data: double zero
+        public void Test_Divide_Input_Double_Zero(double valueA, double valueB)
+        {
+            Assert.IsNotNull($"{valueB} should not be zero, 400");
+        }
+
+        [TestMethod]
+        [DataRow(0, 77894, 0)]
+        [DataRow(775, 0, 0)]
+        [DataRow(0, -9.70, 0)]
+        [DataRow(0, 0, 0)]
+        //Test 7: Multiple()
+        //Data: zero
+        public void Test_Multiple_Input_Zero(double valueA, double valueB, double expected)
+        {
+            Assert.AreEqual(expected, _CalculateController.Multiple(valueA, valueB));
+        }
+
+        [TestMethod]
+        [DataRow(0, -90, 90)]
+        [DataRow(65, 0, 65)]
+        [DataRow(0.78, 0, 0.78)]
+        [DataRow(0, 0, 0)]
+        //Test 8: Subtract()
+        //Data: zero
+        public void Test_Subtract_Zero(double valueA, double valueB, double expected)
+        {
+            Assert.AreEqual(expected, _CalculateController.Subtract(valueA, valueB));
+        }
+
+        [TestMethod]
+        [DataRow(0, 0, 0)]
+        [DataRow(7.8889, 0, 7.8889)]
+        [DataRow(0, -10, -10)]
+        [DataRow(0, 0.91, 0.91)]
+        //Test 9: Add()
+        //DataTest: zero
+        public void Test_Add_Zero(double valueA, double valueB, double expected)
+        {
+            Assert.AreEqual(expected, _CalculateController.Add(valueA, valueB));
+        }
+
+        [TestMethod]
+        [DataRow(-0.10, 98, -0.0010204081632653062)]
+        [DataRow(-20, -0.9990, 20.02002002002002)]
+        [DataRow(-0.99, -89.3, 0.01108622620380739)]
+        [DataRow(-50, -2, 25)]
+        //Test 10: Divide()
+        //Data: all negative
+        public void Test_Divide_Input_Negative(double valueA, double valueB, double expected)
+        {
+            Assert.AreEqual(expected, _CalculateController.Divide(valueA, valueB));
+        }
+
 
     }
 }
