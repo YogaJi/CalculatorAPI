@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "vcr63d8e7XnZCoNrL91jgfPiqY0iSN3kL7n0w7bHY5jLdnPNHQr0Ew2CoAPwfFjC5NRndVl6zBMar/SlL0TH3Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\DELL\\source\\repos\\CalculatorAPI\\CalculatorLibrary\\CalculatorLibrary.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\DELL\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.12\\microsoft.netcore.app.host.win-x64.5.0.12.nupkg.sha512"
+  ],
+  "logs": []
+}

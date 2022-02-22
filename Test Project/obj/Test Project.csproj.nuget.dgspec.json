@@ -32,7 +32,11 @@
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\DELL\\source\\repos\\CalculatorAPI\\CalculatorLibrary\\CalculatorLibrary.csproj": {
+                "projectPath": "C:\\Users\\DELL\\source\\repos\\CalculatorAPI\\CalculatorLibrary\\CalculatorLibrary.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -78,6 +82,71 @@
         }
       }
     },
+    "C:\\Users\\DELL\\source\\repos\\CalculatorAPI\\CalculatorLibrary\\CalculatorLibrary.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\DELL\\source\\repos\\CalculatorAPI\\CalculatorLibrary\\CalculatorLibrary.csproj",
+        "projectName": "CalculatorLibrary",
+        "projectPath": "C:\\Users\\DELL\\source\\repos\\CalculatorAPI\\CalculatorLibrary\\CalculatorLibrary.csproj",
+        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DELL\\source\\repos\\CalculatorAPI\\CalculatorLibrary\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://nuget.cdn.azure.cn/v3/index.json": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[5.0.12, 5.0.12]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\Users\\DELL\\source\\repos\\CalculatorAPI\\Test Project\\Test Project.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -109,6 +178,9 @@
             "projectReferences": {
               "C:\\Users\\DELL\\source\\repos\\CalculatorAPI\\ASP.Net Core Web API\\ASP.Net Core Web API.csproj": {
                 "projectPath": "C:\\Users\\DELL\\source\\repos\\CalculatorAPI\\ASP.Net Core Web API\\ASP.Net Core Web API.csproj"
+              },
+              "C:\\Users\\DELL\\source\\repos\\CalculatorAPI\\CalculatorLibrary\\CalculatorLibrary.csproj": {
+                "projectPath": "C:\\Users\\DELL\\source\\repos\\CalculatorAPI\\CalculatorLibrary\\CalculatorLibrary.csproj"
               }
             }
           }
@@ -134,14 +206,6 @@
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[16.9.4, )"
-            },
-            "Selenium.WebDriver": {
-              "target": "Package",
-              "version": "[4.1.0, )"
-            },
-            "WebDriverManager": {
-              "target": "Package",
-              "version": "[2.12.3, )"
             },
             "coverlet.collector": {
               "target": "Package",

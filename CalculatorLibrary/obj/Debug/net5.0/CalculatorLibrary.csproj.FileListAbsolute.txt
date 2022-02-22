@@ -1,0 +1,16 @@
+C:\Users\DELL\source\repos\CalculatorAPI\CalculatorLibrary\bin\Debug\net5.0\CalculatorLibrary.deps.json
+C:\Users\DELL\source\repos\CalculatorAPI\CalculatorLibrary\bin\Debug\net5.0\CalculatorLibrary.dll
+C:\Users\DELL\source\repos\CalculatorAPI\CalculatorLibrary\bin\Debug\net5.0\ref\CalculatorLibrary.dll
+C:\Users\DELL\source\repos\CalculatorAPI\CalculatorLibrary\bin\Debug\net5.0\CalculatorLibrary.pdb
+C:\Users\DELL\source\repos\CalculatorAPI\CalculatorLibrary\obj\Debug\net5.0\CalculatorLibrary.csproj.AssemblyReference.cache
+C:\Users\DELL\source\repos\CalculatorAPI\CalculatorLibrary\obj\Debug\net5.0\CalculatorLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\source\repos\CalculatorAPI\CalculatorLibrary\obj\Debug\net5.0\CalculatorLibrary.AssemblyInfoInputs.cache
+C:\Users\DELL\source\repos\CalculatorAPI\CalculatorLibrary\obj\Debug\net5.0\CalculatorLibrary.AssemblyInfo.cs
+C:\Users\DELL\source\repos\CalculatorAPI\CalculatorLibrary\obj\Debug\net5.0\CalculatorLibrary.csproj.CoreCompileInputs.cache
+C:\Users\DELL\source\repos\CalculatorAPI\CalculatorLibrary\obj\Debug\net5.0\CalculatorLibrary.dll
+C:\Users\DELL\source\repos\CalculatorAPI\CalculatorLibrary\obj\Debug\net5.0\ref\CalculatorLibrary.dll
+C:\Users\DELL\source\repos\CalculatorAPI\CalculatorLibrary\obj\Debug\net5.0\CalculatorLibrary.pdb
+C:\Users\DELL\source\repos\CalculatorAPI\CalculatorLibrary\bin\Debug\net5.0\CalculatorLibrary.exe
+C:\Users\DELL\source\repos\CalculatorAPI\CalculatorLibrary\bin\Debug\net5.0\CalculatorLibrary.runtimeconfig.json
+C:\Users\DELL\source\repos\CalculatorAPI\CalculatorLibrary\bin\Debug\net5.0\CalculatorLibrary.runtimeconfig.dev.json
+C:\Users\DELL\source\repos\CalculatorAPI\CalculatorLibrary\obj\Debug\net5.0\CalculatorLibrary.genruntimeconfig.cache
